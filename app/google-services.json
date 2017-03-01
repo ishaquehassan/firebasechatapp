@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "717364655039",
+    "firebase_url": "https://marathon-project-2.firebaseio.com",
+    "project_id": "marathon-project-2",
+    "storage_bucket": "marathon-project-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717364655039:android:9eae741c31ee0568",
+        "android_client_info": {
+          "package_name": "com.cyberavanza.fmr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717364655039-tf1rfkmi87bmn3d4jectb3t8734cvf1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAHP6bCo_v5nxbP8luEiiKjQ5-zGG6hyg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

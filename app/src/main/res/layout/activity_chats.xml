@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/bg" />
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ffffff">
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/chatsToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:elevation="0dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_alignParentTop="true"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+
+       <android.support.v7.widget.RecyclerView
+           android:layout_marginTop="?attr/actionBarSize"
+           android:background="@android:color/white"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/recyclerList" />
+
+       <ProgressBar
+           android:layout_gravity="center"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:indeterminate="true"
+           android:indeterminateTintMode="src_atop"
+           android:indeterminateTint="@color/colorPrimary"
+           android:id="@+id/loadingList"/>
+
+   </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>
