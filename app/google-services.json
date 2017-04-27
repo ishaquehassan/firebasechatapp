@@ -36,6 +36,37 @@
           "status": 2
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717364655039:android:50f0df2d0491c609",
+        "android_client_info": {
+          "package_name": "com.cyberavanza.fbchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717364655039-tf1rfkmi87bmn3d4jectb3t8734cvf1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAHP6bCo_v5nxbP8luEiiKjQ5-zGG6hyg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
     }
   ],
   "configuration_version": "1"
